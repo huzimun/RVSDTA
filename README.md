@@ -50,6 +50,12 @@ Config has the following parameters:
 - `target_path`: The file path of referenced images.
 - `output_dir`: The path for saving the learned adversarial prompts.
 
+
+
+## Adversarial Attack Dataset
+
+We public our adversarial attack dataset that is used to achieve object attacks on Stable Diffusion. The dataset is available at [[Link]](https://github.com/datar001/Attack-Pattern-on-T2I/tree/main/Adversarial_Attack_Dataset).
+
 ## Citation
 
 If you find the repo useful, please consider citing.
