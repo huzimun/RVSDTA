@@ -3,13 +3,11 @@
 <img src=examples/framework.png  width="70%" height="40%">
 
 ## Dependencies
-
-- PyTorch == 2.0.1
-- transformers == 4.23.1
-- diffusers == 0.11.1
-- ftfy==6.1.1
-- accelerate=0.22.0
-- python==3.8.13
+```sh
+conda create --name rvsdta python=3.8.13
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install -r requirements.txt 
+```
 
 ## Usage
 
@@ -50,8 +48,6 @@ Config has the following parameters:
 - `target_path`: The file path of referenced images.
 - `output_dir`: The path for saving the learned adversarial prompts.
 
-
-
 ## Adversarial Attack Dataset
 
 We public our adversarial attack dataset that is used to achieve object attacks on Stable Diffusion. The dataset is available at [[Link]](https://github.com/datar001/Attack-Pattern-on-T2I/tree/main/Adversarial_Attack_Dataset).
@@ -68,5 +64,3 @@ If you find the repo useful, please consider citing.
   year={2024}
 }
 ```
-
-测试
