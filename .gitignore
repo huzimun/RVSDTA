@@ -154,6 +154,10 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# pretrains
 *.pt
 *.h5
 *.pkl
+
+# output_dir
+runs
